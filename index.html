@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONG Anjos da Cozinha</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>ONG Anjos da Cozinha</h1>
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        <nav id="menuPrincipal">
+            <a href="#" data-page="home">Início</a>
+            <a href="#" data-page="projetos">Projetos</a>
+            <a href="#" data-page="cadastro">Cadastro</a>
+        </nav>
+    </header>
+
+    <main>
+        <button onclick="document.getElementById('modalBoasVindas').classList.add('ativo')">
+            Quero ser voluntário
+        </button>
+
+        <div class="modal-fundo" id="modalBoasVindas">
+            <div class="modal-caixa">
+                <h2>Seja um voluntário!</h2>
+                <p>Junte-se ao nosso time e ajude a transformar vidas na sua comunidade.</p>
+                <button onclick="document.getElementById('modalBoasVindas').classList.remove('ativo'); carregarPagina('cadastro')">Fazer cadastro</button>
+                <button onclick="document.getElementById('modalBoasVindas').classList.remove('ativo')">Fechar</button>
+            </div>
+        </div>
+
+        <div id="conteudo">
+            <section>
+                <h2>Quem somos</h2>
+                <p>Nós somos uma ONG que nasceu da necessidade de cuidar do próximo, e alimentar os necessitados, unimos a paixão dos voluntários pela cozinha, com a paixão de ajudar o próximo.</p>
+            </section>
+
+            <div class="container-grid">
+                <section class="col-6">
+                    <h2>Nosso impacto</h2>
+                    <p>Há 10 anos alimentando os moradores de rua de São Paulo, já contamos com um time de 270 voluntários, e atendemos cerca de 1500 pessoas por semana.</p>
+                </section>
+
+                <section class="col-6">
+                    <h2>Nossa equipe em ação</h2>
+                    <picture>
+                        <source srcset="imagens/equipe.png" type="image/png">
+                        <img src="imagens/equipe.jpg" alt="voluntários da ONG Anjos da cozinha" width="600">
+                    </picture>
+                </section>
+            </div>
+
+            <section>
+                <h2>Fale Conosco</h2>
+                <address>
+                    <p>Email: <a href="mailto:contato@anjosdacozinha.org">contato@anjosdacozinha.org</a></p>
+                </address>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ONG Anjos da Cozinha. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
