@@ -1,6 +1,6 @@
 # <vscode project>
 
-A responsive and accessible website for a fictional NGO, built as a practical project.
+A responsive and accessible website for a fictional ONG, built as a practical project.
 
 ## 📌 About
 
