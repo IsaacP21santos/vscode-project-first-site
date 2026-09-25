@@ -1,9 +1,9 @@
 # <vscode project>
 
-A responsive and accessible single-page application for a fictional NGO, built as a practical front-end project.
+A responsive and accessible single-page application for a fictional ONG, built as a practical front-end project.
 ## 📌 About
 
-This project is a single-page website designed to showcase the work and mission of a fictional non-governmental organization (NGO). It focuses on modern front-end development practices, including semantic HTML, accessibility, and responsive design.
+This project is a single-page website designed to showcase the work and mission of a fictional non-governmental organization (ONG). It focuses on modern front-end development practices, including semantic HTML, accessibility, and responsive design.
 
 ## ✨ Features
 
